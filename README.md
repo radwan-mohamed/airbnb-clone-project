@@ -28,3 +28,20 @@
 
 
 
+
+### Technology Stack
+
+1. **Django**  
+   A high-level Python web framework used for building robust and scalable web applications. In this project, Django serves as the backbone for creating RESTful APIs and managing server-side logic.
+
+2. **PostgreSQL**  
+   An advanced open-source relational database system. It is utilized for storing and managing structured data efficiently, ensuring reliability and scalability.
+
+3. **GraphQL**  
+   A modern query language for APIs that allows clients to request specific data they need. It provides flexibility and efficiency in data fetching and manipulation.
+
+
+
+
+
+
