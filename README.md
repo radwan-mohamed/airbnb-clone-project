@@ -89,3 +89,25 @@
 
 
 
+### API Security
+
+1. **Authentication**  
+   Ensures that only verified users or systems can access the API. This is crucial for protecting sensitive user data and preventing unauthorized access to the system.
+
+2. **Authorization**  
+   Determines what actions or resources a verified user or system can access. This prevents users from accessing data or functionalities they are not permitted to, ensuring data privacy and security.
+
+3. **Rate Limiting**  
+   Restricts the number of requests a user or system can make within a specific timeframe. This helps prevent abuse, such as denial-of-service (DoS) attacks, and ensures fair usage of resources.
+
+4. **Input Validation**  
+   Validates and sanitizes all incoming data to prevent injection attacks, such as SQL injection or cross-site scripting (XSS). This ensures the integrity and security of the system.
+
+5. **Encryption**  
+   Encrypts data in transit and at rest to protect it from unauthorized access. This is especially important for securing sensitive information like payment details and personal data.
+
+6. **Logging and Monitoring**  
+   Tracks API usage and errors to detect and respond to suspicious activity. This helps in identifying potential security breaches and mitigating them promptly.
+
+
+
