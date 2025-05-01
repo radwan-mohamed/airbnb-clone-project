@@ -69,3 +69,23 @@
 
 
 
+### Feature Breakdown
+
+1. **User Management**  
+   Enables users to create and manage their profiles, including personal information and preferences. This feature ensures a personalized experience and facilitates secure authentication.
+
+2. **Property Management**  
+   Allows property owners to list, update, and manage their rental properties. It includes features like uploading images, setting prices, and providing detailed descriptions to attract potential renters.
+
+3. **Booking System**  
+   Provides users with the ability to book properties seamlessly. It includes date selection, availability checks, and payment integration to ensure a smooth booking process.
+
+4. **Review System**  
+   Enables users to leave reviews and ratings for properties they have stayed at. This feature helps maintain transparency and assists future renters in making informed decisions.
+
+5. **Payment Integration**  
+   Facilitates secure and efficient payment processing for bookings. It supports multiple payment methods and ensures transaction reliability.
+
+
+
+
