@@ -43,5 +43,29 @@
 
 
 
+### Database Design
+
+1. **Users**  
+   - Fields: `user_id`, `name`, `email`, `password`, `phone_number`.  
+   - Relationships: A user can own multiple properties and make multiple bookings.
+
+2. **Properties**  
+   - Fields: `property_id`, `owner_id`, `address`, `description`, `price`.  
+   - Relationships: Each property is owned by a user and can have multiple bookings and reviews.
+
+3. **Bookings**  
+   - Fields: `booking_id`, `property_id`, `user_id`, `start_date`, `end_date`.  
+   - Relationships: A booking is linked to a specific property and user.
+
+4. **Reviews**  
+   - Fields: `review_id`, `property_id`, `user_id`, `rating`, `comments`.  
+   - Relationships: A review is associated with a property and the user who wrote it.
+
+5. **Payments**  
+   - Fields: `payment_id`, `booking_id`, `amount`, `payment_method`, `transaction_status`.  
+   - Relationships: Payments are tied to bookings and track the financial transactions.
+
+
+
 
 
