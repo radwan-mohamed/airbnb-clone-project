@@ -111,3 +111,18 @@
 
 
 
+
+
+### CI/CD Pipeline
+
+**Continuous Integration (CI)** and **Continuous Deployment (CD)** pipelines automate the process of building, testing, and deploying code changes. CI ensures that new code integrates seamlessly with the existing codebase by running automated tests, while CD automates the deployment of these changes to production or staging environments. Together, they enhance development efficiency, reduce errors, and ensure faster delivery of features.
+
+**Importance for the Project**  
+Implementing a CI/CD pipeline ensures that the project remains stable and deployable at all times. It minimizes manual intervention, reduces the risk of bugs reaching production, and accelerates the feedback loop for developers.
+
+**Tools Used**  
+- **GitHub Actions**: Automates workflows for building, testing, and deploying code directly from the GitHub repository.  
+- **Docker**: Provides containerization to ensure consistent environments across development, testing, and production.  
+- **Jenkins**: A widely-used open-source automation server for setting up CI/CD pipelines.  
+- **Kubernetes**: Manages containerized applications for scalable and reliable deployments.
+
